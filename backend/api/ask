@@ -1,0 +1,8 @@
+app.post("/api/ask", async (req, res) => {
+  const { question } = req.body;
+  res.json({
+    answer:
+      `VTU-style answer for: "${question}"\n\n` +
+      "1. Introduction...\n2. Explanation...\n3. Conclusion...",
+  });
+});
