@@ -1,0 +1,8 @@
+VTU DSA Sem 5 Notes
+===================
+Array Operations:
+- Insert: O(n)
+- Delete: O(n) 
+- Search: O(n)
+
+Example: int arr[5] = {1,2,3};
